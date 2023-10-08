@@ -8,7 +8,7 @@
 }
 .backimagen {
     background-image: url("../../public/img/backgroundMujer.png");
-    object-fit: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
