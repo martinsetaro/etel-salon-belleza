@@ -10,8 +10,8 @@ const Header = () => {
   return (
     <div className="w-100% h-[40rem] flex flex-col backimagen">
         <div className="w-full h-[10rem] flex justify-around">
-           <div className='w-full h-[8rem] p-2 flex items-center'>
-             <h2 className='text-7xl uppercase text-white font-nunito ml-4'>Etel </h2>
+           <div className='w-full h-[8rem] pl-10 flex items-center'>
+             <h2 className='text-7xl uppercase text-white font-nunito'>Etel </h2>
           </div>
         <div className='w-full h-[8rem] p-2'>
            <Navigation/> 
