@@ -14,12 +14,11 @@ const Trabajos = () => {
         <p className="text-center p-12">En nuestro salón de belleza, nos dedicamos a brindarte un 
         servicio de excelencia para que te sientas bella y radiante. Ofrecemos una amplia gama de 
         servicios para el cuidado de tu cabello, rostro y cuerpo.</p>
-        <div className="w-full h-auto flex justify-around mt-14">
-            <Image src={cut1} alt="imagencorte" width={250} height={400} className='rounded-xl shadow-lg aniimg'/>
-            <Image src={cut2} alt="imagencorte"  width={250} height={100} className='rounded-xl shadow-lg aniimg'/>
-            <Image src={cut3} alt="imagencorte"  width={250} height={100} className='rounded-xl shadow-lg aniimg'/>
-            <Image src={cut4} alt="imagencorte" width={250} height={100}  className='rounded-xl shadow-lg aniimg'/>
-
+        <div className="w-full h-auto flex justify-around mt-14 max-[600px]:flex-col">
+            <Image src={cut1} alt="imagencorte" width={250} height={400} className='rounded-xl shadow-lg max-[600px]:w-4/5 m-auto h-[20rem] mb-6 aniimg'/>
+            <Image src={cut2} alt="imagencorte"  width={250} height={100} className='rounded-xl shadow-lg max-[600px]:w-4/5 m-auto h-[20rem] mb-6 aniimg'/>
+            <Image src={cut3} alt="imagencorte"  width={250} height={100} className='rounded-xl shadow-lg max-[600px]:w-4/5 m-auto h-[20rem] mb-6 aniimg'/>
+            <Image src={cut4} alt="imagencorte" width={250} height={100}  className='rounded-xl shadow-lg max-[600px]:w-4/5 m-auto h-[20rem] mb-6 aniimg'/>
         </div>
 
     </div>

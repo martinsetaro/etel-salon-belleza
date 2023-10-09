@@ -12,6 +12,11 @@
     background-repeat: no-repeat;
     
 }
+@media (max-width:600px){
+    .backimagen{
+        background-position: center center;
+    }
+}
 .link {
     transition: all .3s linear;
     cursor: pointer;

@@ -53,7 +53,7 @@ const days = Array.from({ length: 31 }, (_, index) => {
     <div className="w-full h-auto p-4 pb-12">
        <h2 className="text-4xl text-center font-nunito text-gray-600"> Desde aquí solicita tu turno</h2>
        <div className="w-full h-auto pt-3 pb-4 flex justify-center">
-        <form className="w-1/2 h-auto mt-12  flex flex-col gap-6 font-nunito">
+        <form className="w-1/2 h-auto mt-12  flex flex-col gap-6 font-nunito max-[600px]:w-full">
           <label>Nombre</label>
           <input
           type="text"

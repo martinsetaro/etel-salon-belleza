@@ -10,7 +10,7 @@ const Bienvenidos = () => {
   return (
     <div className="w-full h-auto flex-col">
       
-        <div className="w-full h-[25rem] pt-3 pb-3 flex">
+        <div className="w-full h-[25rem] pt-3 pb-3 flex max-[600px]:flex-col max-[600px]:h-auto">
 
         
         <div className="w-full h-auto p-2 mt-16">
