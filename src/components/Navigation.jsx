@@ -17,7 +17,7 @@ const handlerLoad = () => {
   
 }
 
-src\components\Trabajos.jsx
+
 
   return (
     <>
