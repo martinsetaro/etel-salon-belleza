@@ -5,7 +5,7 @@ import 'sweetalert2/src/sweetalert2.scss'
 
 
 
-const page = () => {
+const Page = () => {
 
   const [nombre,setNombre] = useState('')
   const [apellido,setApellido] = useState('')
@@ -124,4 +124,4 @@ const days = Array.from({ length: 31 }, (_, index) => {
   )
 }
 
-export default page
+export default Page
